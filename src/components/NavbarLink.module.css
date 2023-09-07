@@ -1,0 +1,16 @@
+.link {
+  font-size: 20px;
+  color: #000;
+  transition: 0.3s all ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  color: #000;
+  transition: 0.3s all ease;
+}
+
+.active {
+  composes: link;
+  color: rgb(229, 54, 54);
+}
